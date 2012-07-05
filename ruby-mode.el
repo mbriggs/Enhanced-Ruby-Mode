@@ -912,7 +912,7 @@ With ARG, do it that many times."
 
 (defun ruby-indent-line (&optional flag)
   "Correct indentation of the current ruby line."
-  (erm-wait-for-parse)
+  ;; (erm-wait-for-parse)
   (unwind-protect
       (progn
         (setq erm-no-parse-needed-p t)
